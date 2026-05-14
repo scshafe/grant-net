@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local Claude Code state — agent definitions are tracked, runtime state isn't.
+.claude/settings.local.json
+.claude/sessions/
+
+# Local-only architecture sketches; promote to architecture/ when ready.
+.scratch/
